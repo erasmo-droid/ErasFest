@@ -1,5 +1,5 @@
-// Cole aqui a URL publicada pelo Google Apps Script quando a planilha estiver pronta.
-const GOOGLE_SCRIPT_URL = '';
+﻿// Cole aqui a URL publicada pelo Google Apps Script quando a planilha estiver pronta.
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxDHxay6CMy9igyYNDJjgwUWHeBqEeAYpdR9SBNWQusbVLlpcOvgFr69tbpeU7-LzzBLg/exec';
 
 document.querySelectorAll('[data-rsvp-form]').forEach((form) => {
   const success = form.parentElement.querySelector('[data-success]');
@@ -37,3 +37,4 @@ document.querySelectorAll('[data-rsvp-form]').forEach((form) => {
     form.hidden = false;
   });
 });
+
